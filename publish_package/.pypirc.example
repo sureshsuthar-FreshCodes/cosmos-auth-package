@@ -1,0 +1,20 @@
+[distutils]
+index-servers =
+    pypi
+    testpypi
+
+[pypi]
+# For API tokens, username must be: __token__
+username = __token__
+# Get your token from: https://pypi.org/manage/account/
+# Token must start with: pypi-
+password = pypi-YOUR_PRODUCTION_TOKEN_HERE
+
+[testpypi]
+# For API tokens, username must be: __token__
+username = __token__
+# Get your token from: https://test.pypi.org/manage/account/
+# Token must start with: pypi-
+password = pypi-YOUR_TESTPYPI_TOKEN_HERE
+
+
